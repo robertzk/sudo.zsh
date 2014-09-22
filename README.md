@@ -1,7 +1,7 @@
 sudo.zsh
 ========
 
-A zsh plugin to use Cmd+S to prepend sudo to a command with vi keybindings.
+A zsh plugin to use Esc+S to prepend sudo to a command with vi keybindings.
 
 ```bash
 some really long zsh command
