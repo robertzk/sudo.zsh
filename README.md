@@ -23,4 +23,4 @@ echo "plugins+=(sudo)" >> ~/.zshrc
 
 (Alternatively, you can place the `sudo` plugin in the `plugins=(...)` local in your `~/.zshrc` manually.)
 
-Unfortunately, due to use of `zle` (zsh line editor), this shell script will not work on bash terminal.
+Unfortunately, due to use of `zle` (zsh line editor), this shell script will **not** work on bash terminal.

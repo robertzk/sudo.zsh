@@ -6,9 +6,6 @@ function prepend-sudo { # Insert "sudo " at the beginning of the line
 }
 zle -N prepend-sudo
 
-# Old code I couldn't get to work that may be useful to somebody
-#[[ -n "$keyinfo[Control]" ]] && \
-#  bindkey "$keyinfo[Control]s" prepend-sudo
-
 # Note: requires vi key bindings in zsh!
 bindkey -M vicmd '\es' prepend-sudo
+
